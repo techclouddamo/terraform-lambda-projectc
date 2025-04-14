@@ -1,0 +1,51 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+# Sensitive credentials
+*.pem
+*.key
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+*.ipr
+*.iws
+
+# Maven
+target/
+dependency-reduced-pom.xml
+build.log
+
+# Gradle
+.gradle/
+build/
+
+# === Eclipse ===
+.settings/
+.project
+.classpath
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
